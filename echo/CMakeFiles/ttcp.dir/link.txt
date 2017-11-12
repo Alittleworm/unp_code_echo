@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ttcp.dir/main.cc.o CMakeFiles/ttcp.dir/common.cc.o CMakeFiles/ttcp.dir/Timestamp.cc.o CMakeFiles/ttcp.dir/ttcp_blocking.cc.o  -o /home/dd/dd/unp/unp_code/bin/ttcp  -L/usr/local/lib -rdynamic -lboost_program_options -Wl,-rpath,/usr/local/lib 
