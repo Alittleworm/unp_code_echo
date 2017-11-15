@@ -56,5 +56,6 @@ void receive(const Options& opt);
 
 void str_echo(int sockfd);
 void str_cli(FILE* fp,int sockfd);
+void str_cli_select(FILE* fp,int sockfd);
 void error_quit(char *fmt, ...);
 #endif

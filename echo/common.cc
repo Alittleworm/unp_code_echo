@@ -102,3 +102,22 @@ void str_cli(FILE* fp,int sockfd)
             return;
     }
 }
+
+void str_cli_select(FILE* fp,int sockfd)
+{
+    int maxfdp1;
+    fd_set rset;
+    char sendline[MXALINE], recvline[MAXLINE];
+
+    FD_ZERO(&rest);
+    for(;;){
+        FD_SET(fileno(fp), &rset);
+        FD_SET(sockfd, &rset);
+        maxfdp1 = max(fileno(fp), sockfd) + 1;
+        select(maxfdp1, &rset,NULL,NULL,NULL);
+
+        
+    }
+
+
+}
