@@ -7,8 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include"stdarg.h"
-#define MAXLINE 8192
 typedef signed char int8_t;
 typedef short  int int16_t;
 typedef int    int32_t;
@@ -54,8 +52,4 @@ void transmit(const Options& opt);
 
 void receive(const Options& opt);
 
-void str_echo(int sockfd);
-void str_cli(FILE* fp,int sockfd);
-void str_cli_select(FILE* fp,int sockfd);
-void error_quit(char *fmt, ...);
 #endif
