@@ -1,0 +1,205 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	.\unp_header\unp.h	/^int Accept(int fd, struct sockaddr *sa, socklen_t *salenptr);    $/;"	p	signature:(int fd, struct sockaddr *sa, socklen_t *salenptr)
+Accept	.\unp_header\unp_base.c	/^int Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)    $/;"	f	signature:(int fd, struct sockaddr *sa, socklen_t *salenptr)
+Bind	.\unp_header\unp.h	/^void Bind(int fd, const struct sockaddr *sa, socklen_t salen);    $/;"	p	signature:(int fd, const struct sockaddr *sa, socklen_t salen)
+Bind	.\unp_header\unp_base.c	/^void Bind(int fd, const struct sockaddr *sa, socklen_t salen)    $/;"	f	signature:(int fd, const struct sockaddr *sa, socklen_t salen)
+Calloc	.\unp_header\unp.h	/^void *Calloc(size_t n, size_t size);  $/;"	p	signature:(size_t n, size_t size)
+Calloc	.\unp_header\unp_base.c	/^void *Calloc(size_t n, size_t size)  $/;"	f	signature:(size_t n, size_t size)
+Close	.\unp_header\unp.h	/^void Close(int fd);   $/;"	p	signature:(int fd)
+Close	.\unp_header\unp_base.c	/^void Close(int fd)    $/;"	f	signature:(int fd)
+Connect	.\unp_header\unp.h	/^void Connect(int fd, const struct sockaddr *sa, socklen_t salen);    $/;"	p	signature:(int fd, const struct sockaddr *sa, socklen_t salen)
+Connect	.\unp_header\unp_base.c	/^void Connect(int fd, const struct sockaddr *sa, socklen_t salen)    $/;"	f	signature:(int fd, const struct sockaddr *sa, socklen_t salen)
+Dup2	.\unp_header\unp.h	/^void Dup2(int fd1, int fd2);  $/;"	p	signature:(int fd1, int fd2)
+Dup2	.\unp_header\unp_base.c	/^void Dup2(int fd1, int fd2)  $/;"	f	signature:(int fd1, int fd2)
+Epoll_create	.\unp_header\unp.h	/^int Epoll_create(int size);    $/;"	p	signature:(int size)
+Epoll_create	.\unp_header\unp_base.c	/^int Epoll_create(int size)    $/;"	f	signature:(int size)
+Epoll_ctl	.\unp_header\unp.h	/^void Epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);    $/;"	p	signature:(int epfd, int op, int fd, struct epoll_event *event)
+Epoll_ctl	.\unp_header\unp_base.c	/^void Epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)    $/;"	f	signature:(int epfd, int op, int fd, struct epoll_event *event)
+Epoll_wait	.\unp_header\unp.h	/^int Epoll_wait(int epfd, struct epoll_event *events,    $/;"	p	signature:(int epfd, struct epoll_event *events, int maxevents, int timeout)
+Epoll_wait	.\unp_header\unp_base.c	/^int Epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout)    $/;"	f	signature:(int epfd, struct epoll_event *events, int maxevents, int timeout)
+Fgets	.\unp_header\unp.h	/^char *Fgets(char *ptr, int n, FILE *stream);     $/;"	p	signature:(char *ptr, int n, FILE *stream)
+Fgets	.\unp_header\unp_base.c	/^char *Fgets(char *ptr, int n, FILE *stream)    $/;"	f	signature:(char *ptr, int n, FILE *stream)
+Fork	.\unp_header\unp.h	/^pid_t Fork(void);    $/;"	p	signature:(void)
+Fork	.\unp_header\unp_base.c	/^pid_t Fork(void)    $/;"	f	signature:(void)
+Fputs	.\unp_header\unp.h	/^void Fputs(const char *ptr, FILE *stream);    $/;"	p	signature:(const char *ptr, FILE *stream)
+Fputs	.\unp_header\unp_base.c	/^void Fputs(const char *ptr, FILE *stream)    $/;"	f	signature:(const char *ptr, FILE *stream)
+Ftruncate	.\unp_header\unp.h	/^void Ftruncate(int fd, off_t length);  $/;"	p	signature:(int fd, off_t length)
+Ftruncate	.\unp_header\unp_base.c	/^void Ftruncate(int fd, off_t length)  $/;"	f	signature:(int fd, off_t length)
+Inet_ntop	.\unp_header\unp.h	/^const char *Inet_ntop(int family, const void *addrptr, char *strptr, size_t len);    $/;"	p	signature:(int family, const void *addrptr, char *strptr, size_t len)
+Inet_ntop	.\unp_header\unp_base.c	/^const char *Inet_ntop(int family, const void *addrptr, char *strptr, size_t len)    $/;"	f	signature:(int family, const void *addrptr, char *strptr, size_t len)
+Inet_pton	.\unp_header\unp.h	/^void Inet_pton(int family, const char *strptr, void *addrptr);    $/;"	p	signature:(int family, const char *strptr, void *addrptr)
+Inet_pton	.\unp_header\unp_base.c	/^void Inet_pton(int family, const char *strptr, void *addrptr)    $/;"	f	signature:(int family, const char *strptr, void *addrptr)
+LISTENQ	.\unp_header\unp.h	25;"	d
+Listen	.\unp_header\unp.h	/^void Listen(int fd, int backlog);    $/;"	p	signature:(int fd, int backlog)
+Listen	.\unp_header\unp_base.c	/^void Listen(int fd, int backlog)    $/;"	f	signature:(int fd, int backlog)
+MAXLINE	.\unp_header\unp.h	24;"	d
+MAXNITEMS	.\unp_header\unp.h	27;"	d
+MAXNTHREADS	.\unp_header\unp.h	28;"	d
+MY_UNP_H_	.\unp_header\unp.h	2;"	d
+Malloc	.\unp_header\unp.h	/^void *Malloc(size_t size);    $/;"	p	signature:(size_t size)
+Malloc	.\unp_header\unp_base.c	/^void *Malloc(size_t size)    $/;"	f	signature:(size_t size)
+Mmap	.\unp_header\unp.h	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset);  $/;"	p	signature:(void *addr, size_t len, int prot, int flags, int fd, off_t offset)
+Mmap	.\unp_header\unp_base.c	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset)  $/;"	f	signature:(void *addr, size_t len, int prot, int flags, int fd, off_t offset)
+Munmap	.\unp_header\unp.h	/^void Munmap(void *addr, size_t len);  $/;"	p	signature:(void *addr, size_t len)
+Munmap	.\unp_header\unp_base.c	/^void Munmap(void *addr, size_t len)  $/;"	f	signature:(void *addr, size_t len)
+Open	.\unp_header\unp.h	/^int Open(const char *pathname, int flags, mode_t mode);  $/;"	p	signature:(const char *pathname, int flags, mode_t mode)
+Open	.\unp_header\unp_base.c	/^int Open(const char *pathname, int flags, mode_t mode)  $/;"	f	signature:(const char *pathname, int flags, mode_t mode)
+Options	.\common\common.h	/^  Options()$/;"	f	struct:Options	access:public	signature:()
+Options	.\common\common.h	/^struct Options$/;"	s
+Options::Options	.\common\common.h	/^  Options()$/;"	f	struct:Options	access:public	signature:()
+Options::host	.\common\common.h	/^  std::string host;$/;"	m	struct:Options	access:public
+Options::length	.\common\common.h	/^  int length;$/;"	m	struct:Options	access:public
+Options::nodelay	.\common\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+Options::number	.\common\common.h	/^  int number;$/;"	m	struct:Options	access:public
+Options::port	.\common\common.h	/^  uint16_t port;$/;"	m	struct:Options	access:public
+Options::receive	.\common\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+Options::transmit	.\common\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+PayloadMessage	.\common\common.h	/^struct PayloadMessage$/;"	s
+PayloadMessage::data	.\common\common.h	/^  char data[0];$/;"	m	struct:PayloadMessage	access:public
+PayloadMessage::length	.\common\common.h	/^  int32_t length;$/;"	m	struct:PayloadMessage	access:public
+Pipe	.\unp_header\unp.h	/^void Pipe(int *fds);    $/;"	p	signature:(int *fds)
+Pipe	.\unp_header\unp_base.c	/^void Pipe(int *fds)    $/;"	f	signature:(int *fds)
+Poll	.\unp_header\unp.h	/^int Poll(struct pollfd *fdarray, unsigned long nfds, int timeout);    $/;"	p	signature:(struct pollfd *fdarray, unsigned long nfds, int timeout)
+Poll	.\unp_header\unp_base.c	/^int Poll(struct pollfd *fdarray, unsigned long nfds, int timeout)    $/;"	f	signature:(struct pollfd *fdarray, unsigned long nfds, int timeout)
+Pthread_cond_signal	.\unp_header\unp.h	/^void Pthread_cond_signal(pthread_cond_t *cptr);  $/;"	p	signature:(pthread_cond_t *cptr)
+Pthread_cond_signal	.\unp_header\unp_pthread.c	/^void Pthread_cond_signal(pthread_cond_t *cptr)  $/;"	f	signature:(pthread_cond_t *cptr)
+Pthread_cond_wait	.\unp_header\unp.h	/^void Pthread_cond_wait(pthread_cond_t *cptr, pthread_mutex_t *mptr);  $/;"	p	signature:(pthread_cond_t *cptr, pthread_mutex_t *mptr)
+Pthread_cond_wait	.\unp_header\unp_pthread.c	/^void Pthread_cond_wait(pthread_cond_t *cptr, pthread_mutex_t *mptr)  $/;"	f	signature:(pthread_cond_t *cptr, pthread_mutex_t *mptr)
+Pthread_create	.\unp_header\unp.h	/^void Pthread_create(pthread_t *tid, const pthread_attr_t *attr,  $/;"	p	signature:(pthread_t *tid, const pthread_attr_t *attr, void * (*func)(void *), void *arg)
+Pthread_create	.\unp_header\unp_pthread.c	/^void Pthread_create(pthread_t *tid, const pthread_attr_t *attr,  $/;"	f	signature:(pthread_t *tid, const pthread_attr_t *attr, void * (*func)(void *), void *arg)
+Pthread_detach	.\unp_header\unp.h	/^void Pthread_detach(pthread_t tid);  $/;"	p	signature:(pthread_t tid)
+Pthread_detach	.\unp_header\unp_pthread.c	/^void Pthread_detach(pthread_t tid)  $/;"	f	signature:(pthread_t tid)
+Pthread_join	.\unp_header\unp.h	/^void Pthread_join(pthread_t tid, void **status);  $/;"	p	signature:(pthread_t tid, void **status)
+Pthread_join	.\unp_header\unp_pthread.c	/^void Pthread_join(pthread_t tid, void **status)  $/;"	f	signature:(pthread_t tid, void **status)
+Pthread_kill	.\unp_header\unp.h	/^void Pthread_kill(pthread_t tid, int signo);  $/;"	p	signature:(pthread_t tid, int signo)
+Pthread_kill	.\unp_header\unp_pthread.c	/^void Pthread_kill(pthread_t tid, int signo)  $/;"	f	signature:(pthread_t tid, int signo)
+Pthread_mutex_lock	.\unp_header\unp.h	/^void Pthread_mutex_lock(pthread_mutex_t *mptr);  $/;"	p	signature:(pthread_mutex_t *mptr)
+Pthread_mutex_lock	.\unp_header\unp_pthread.c	/^void Pthread_mutex_lock(pthread_mutex_t *mptr)  $/;"	f	signature:(pthread_mutex_t *mptr)
+Pthread_mutex_unlock	.\unp_header\unp.h	/^void Pthread_mutex_unlock(pthread_mutex_t *mptr);  $/;"	p	signature:(pthread_mutex_t *mptr)
+Pthread_mutex_unlock	.\unp_header\unp_pthread.c	/^void Pthread_mutex_unlock(pthread_mutex_t *mptr)  $/;"	f	signature:(pthread_mutex_t *mptr)
+Pthread_setconcurrency	.\unp_header\unp.h	/^void Pthread_setconcurrency(int level);  $/;"	p	signature:(int level)
+Pthread_setconcurrency	.\unp_header\unp_pthread.c	/^void Pthread_setconcurrency(int level)  $/;"	f	signature:(int level)
+Read	.\unp_header\unp.h	/^ssize_t Read(int fd, void *ptr, size_t nbytes);    $/;"	p	signature:(int fd, void *ptr, size_t nbytes)
+Read	.\unp_header\unp_base.c	/^ssize_t Read(int fd, void *ptr, size_t nbytes)    $/;"	f	signature:(int fd, void *ptr, size_t nbytes)
+Readline	.\unp_header\unp.h	/^ssize_t Readline(int fd, void *ptr, size_t maxlen);    $/;"	p	signature:(int fd, void *ptr, size_t maxlen)
+Readline	.\unp_header\unp_base.c	/^ssize_t Readline(int fd, void *ptr, size_t maxlen)    $/;"	f	signature:(int fd, void *ptr, size_t maxlen)
+Readn	.\unp_header\unp.h	/^ssize_t Readn(int fd, void *ptr, size_t nbytes);    $/;"	p	signature:(int fd, void *ptr, size_t nbytes)
+Readn	.\unp_header\unp_base.c	/^ssize_t Readn(int fd, void *ptr, size_t nbytes)    $/;"	f	signature:(int fd, void *ptr, size_t nbytes)
+Recvfrom	.\unp_header\unp.h	/^ssize_t Recvfrom(int fd, void *ptr, size_t nbytes, int flags,   $/;"	p	signature:(int fd, void *ptr, size_t nbytes, int flags, struct sockaddr *sa, socklen_t *salenptr)
+Recvfrom	.\unp_header\unp_base.c	/^ssize_t Recvfrom(int fd, void *ptr, size_t nbytes, int flags,    $/;"	f	signature:(int fd, void *ptr, size_t nbytes, int flags, struct sockaddr *sa, socklen_t *salenptr)
+Recvmsg	.\unp_header\unp_base.c	/^ssize_t Recvmsg(int fd, struct msghdr *msg, int flags)    $/;"	f	signature:(int fd, struct msghdr *msg, int flags)
+SA	.\unp_header\unp.h	33;"	d
+SERV_PORT	.\unp_header\unp.h	30;"	d
+SERV_PORT_STR	.\unp_header\unp.h	31;"	d
+Select	.\unp_header\unp.h	/^int Select(int nfds, fd_set *readfds, fd_set *writefds,     $/;"	p	signature:(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout)
+Select	.\unp_header\unp_base.c	/^int Select(int nfds, fd_set *readfds, fd_set *writefds,     $/;"	f	signature:(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout)
+Sem_close	.\unp_header\unp.h	/^void Sem_close(sem_t *sem);  $/;"	p	signature:(sem_t *sem)
+Sem_close	.\unp_header\unp_pthread.c	/^void Sem_close(sem_t *sem)  $/;"	f	signature:(sem_t *sem)
+Sem_destroy	.\unp_header\unp.h	/^void Sem_destroy(sem_t *sem);  $/;"	p	signature:(sem_t *sem)
+Sem_destroy	.\unp_header\unp_pthread.c	/^void Sem_destroy(sem_t *sem)  $/;"	f	signature:(sem_t *sem)
+Sem_getvalue	.\unp_header\unp.h	/^void Sem_getvalue(sem_t *sem, int *valp);  $/;"	p	signature:(sem_t *sem, int *valp)
+Sem_getvalue	.\unp_header\unp_pthread.c	/^void Sem_getvalue(sem_t *sem, int *valp)  $/;"	f	signature:(sem_t *sem, int *valp)
+Sem_init	.\unp_header\unp.h	/^void Sem_init(sem_t *sem, int pshared, unsigned int value);  $/;"	p	signature:(sem_t *sem, int pshared, unsigned int value)
+Sem_init	.\unp_header\unp_pthread.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int value)  $/;"	f	signature:(sem_t *sem, int pshared, unsigned int value)
+Sem_open	.\unp_header\unp.h	/^sem_t *Sem_open(const char *name, int oflag,  $/;"	p	signature:(const char *name, int oflag, mode_t mode, unsigned int value)
+Sem_open	.\unp_header\unp_pthread.c	/^sem_t *Sem_open(const char *name, int oflag,  $/;"	f	signature:(const char *name, int oflag, mode_t mode, unsigned int value)
+Sem_post	.\unp_header\unp.h	/^void Sem_post(sem_t *sem);  $/;"	p	signature:(sem_t *sem)
+Sem_post	.\unp_header\unp_pthread.c	/^void Sem_post(sem_t *sem)  $/;"	f	signature:(sem_t *sem)
+Sem_unlink	.\unp_header\unp.h	/^void Sem_unlink(const char *pathname);  $/;"	p	signature:(const char *pathname)
+Sem_unlink	.\unp_header\unp_pthread.c	/^void Sem_unlink(const char *pathname)  $/;"	f	signature:(const char *pathname)
+Sem_wait	.\unp_header\unp.h	/^void Sem_wait(sem_t *sem);  $/;"	p	signature:(sem_t *sem)
+Sem_wait	.\unp_header\unp_pthread.c	/^void Sem_wait(sem_t *sem)  $/;"	f	signature:(sem_t *sem)
+Sendto	.\unp_header\unp.h	/^void Sendto(int fd, const void *ptr, size_t nbytes, int flags,    $/;"	p	signature:(int fd, const void *ptr, size_t nbytes, int flags, const struct sockaddr *sa, socklen_t salen)
+Sendto	.\unp_header\unp_base.c	/^void Sendto(int fd, const void *ptr, size_t nbytes, int flags,    $/;"	f	signature:(int fd, const void *ptr, size_t nbytes, int flags, const struct sockaddr *sa, socklen_t salen)
+SessionMessage	.\common\common.h	/^struct SessionMessage$/;"	s
+SessionMessage::length	.\common\common.h	/^  int32_t length;$/;"	m	struct:SessionMessage	access:public
+SessionMessage::number	.\common\common.h	/^  int32_t number;$/;"	m	struct:SessionMessage	access:public
+Setsockopt	.\unp_header\unp.h	/^void Setsockopt(int fd, int level, int optname,   $/;"	p	signature:(int fd, int level, int optname, const void *optval, socklen_t optlen)
+Setsockopt	.\unp_header\unp_base.c	/^void Setsockopt(int fd, int level, int optname,   $/;"	f	signature:(int fd, int level, int optname, const void *optval, socklen_t optlen)
+Shutdown	.\unp_header\unp.h	/^void Shutdown(int fd, int how);    $/;"	p	signature:(int fd, int how)
+Shutdown	.\unp_header\unp_base.c	/^void Shutdown(int fd, int how)    $/;"	f	signature:(int fd, int how)
+Sigfunc	.\unp_header\unp.h	/^typedef void Sigfunc(int);    $/;"	t
+Signal	.\unp_header\unp.h	/^Sigfunc *Signal(int signo, Sigfunc *func);    $/;"	p	signature:(int signo, Sigfunc *func)
+Signal	.\unp_header\unp_base.c	/^Sigfunc *Signal(int signo, Sigfunc *func)    $/;"	f	signature:(int signo, Sigfunc *func)
+Socket	.\unp_header\unp.h	/^int Socket(int family, int type, int protocol);    $/;"	p	signature:(int family, int type, int protocol)
+Socket	.\unp_header\unp_base.c	/^int Socket(int family, int type, int protocol)    $/;"	f	signature:(int family, int type, int protocol)
+Socketpair	.\unp_header\unp_base.c	/^void Socketpair(int family, int type, int protocol, int *fd)  $/;"	f	signature:(int family, int type, int protocol, int *fd)
+Timestamp	.\common\Timestamp.cc	/^Timestamp::Timestamp(): microSecondsSinceEpoch_(0)$/;"	f	class:Timestamp	signature:()
+Timestamp	.\common\Timestamp.cc	/^Timestamp::Timestamp(int64_t microSecondSinceEpoch): microSecondsSinceEpoch_(microSecondSinceEpoch)$/;"	f	class:Timestamp	signature:(int64_t microSecondSinceEpoch)
+Timestamp	.\common\Timestamp.h	/^    Timestamp();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+Timestamp	.\common\Timestamp.h	/^    explicit Timestamp(int64_t microSecondSinceEpoch);$/;"	p	class:cnmua::Timestamp	access:public	signature:(int64_t microSecondSinceEpoch)
+Timestamp	.\common\Timestamp.h	/^class Timestamp$/;"	c	namespace:cnmua
+Timestamp::Timestamp	.\common\Timestamp.cc	/^Timestamp::Timestamp(): microSecondsSinceEpoch_(0)$/;"	f	class:Timestamp	signature:()
+Timestamp::Timestamp	.\common\Timestamp.cc	/^Timestamp::Timestamp(int64_t microSecondSinceEpoch): microSecondsSinceEpoch_(microSecondSinceEpoch)$/;"	f	class:Timestamp	signature:(int64_t microSecondSinceEpoch)
+Timestamp::now	.\common\Timestamp.cc	/^Timestamp Timestamp::now()$/;"	f	class:Timestamp	signature:()
+Waitpid	.\unp_header\unp.h	/^pid_t Waitpid(pid_t pid, int *iptr, int options);   $/;"	p	signature:(pid_t pid, int *iptr, int options)
+Waitpid	.\unp_header\unp_base.c	/^pid_t Waitpid(pid_t pid, int *iptr, int options)    $/;"	f	signature:(pid_t pid, int *iptr, int options)
+Write	.\unp_header\unp.h	/^void Write(int fd, void *ptr, size_t nbytes);    $/;"	p	signature:(int fd, void *ptr, size_t nbytes)
+Write	.\unp_header\unp_base.c	/^void Write(int fd, void *ptr, size_t nbytes)    $/;"	f	signature:(int fd, void *ptr, size_t nbytes)
+Writen	.\unp_header\unp.h	/^void Writen(int fd, void *ptr, size_t nbytes);    $/;"	p	signature:(int fd, void *ptr, size_t nbytes)
+Writen	.\unp_header\unp_base.c	/^void Writen(int fd, void *ptr, size_t nbytes)    $/;"	f	signature:(int fd, void *ptr, size_t nbytes)
+_COMM_H__	.\common\common.h	2;"	d
+__BASE_TIMESTAMP_H__	.\common\Timestamp.h	2;"	d
+__STDC_FORMAT_MACROS	.\common\Timestamp.cc	5;"	d	file:
+__STDC_FORMAT_MACROS	.\common\Timestamp.cc	7;"	d	file:
+acceptOrDie	.\common\ttcp_blocking.cc	/^static int acceptOrDie(uint16_t port)$/;"	f	file:	signature:(uint16_t port)
+cnmua	.\common\Timestamp.h	/^namespace cnmua$/;"	n
+cnmua::Timestamp	.\common\Timestamp.h	/^class Timestamp$/;"	c	namespace:cnmua
+cnmua::Timestamp::Timestamp	.\common\Timestamp.h	/^    Timestamp();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+cnmua::Timestamp::Timestamp	.\common\Timestamp.h	/^    explicit Timestamp(int64_t microSecondSinceEpoch);$/;"	p	class:cnmua::Timestamp	access:public	signature:(int64_t microSecondSinceEpoch)
+cnmua::Timestamp::kMicroSecondsPerSecond	.\common\Timestamp.h	/^    static const int kMicroSecondsPerSecond = 1000*1000;$/;"	m	class:cnmua::Timestamp	access:public
+cnmua::Timestamp::microSecondsSinceEpoch	.\common\Timestamp.h	/^    int64_t microSecondsSinceEpoch(){return microSecondsSinceEpoch_;};$/;"	f	class:cnmua::Timestamp	access:public	signature:()
+cnmua::Timestamp::microSecondsSinceEpoch_	.\common\Timestamp.h	/^    int64_t microSecondsSinceEpoch_;$/;"	m	class:cnmua::Timestamp	access:private
+cnmua::Timestamp::now	.\common\Timestamp.h	/^    static Timestamp now();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+cnmua::timeDifference	.\common\Timestamp.h	/^inline double timeDifference(Timestamp high, Timestamp low)$/;"	f	namespace:cnmua	signature:(Timestamp high, Timestamp low)
+data	.\common\common.h	/^  char data[0];$/;"	m	struct:PayloadMessage	access:public
+error_quit	.\unp_header\unp.h	/^void error_quit(char *fmt, ...);    $/;"	p	signature:(char *fmt, ...)
+error_quit	.\unp_header\unp_base.c	/^void error_quit(char *fmt, ...)    $/;"	f	signature:(char *fmt, ...)
+host	.\common\common.h	/^  std::string host;$/;"	m	struct:Options	access:public
+int16_t	.\common\common.h	/^typedef short  int int16_t;$/;"	t
+int32_t	.\common\common.h	/^typedef int    int32_t;$/;"	t
+int64_t	.\common\common.h	/^typedef long int int64_t;$/;"	t
+int64_t	.\common\common.h	/^typedef long long int int64_t;$/;"	t
+int8_t	.\common\common.h	/^typedef signed char int8_t;$/;"	t
+kMicroSecondsPerSecond	.\common\Timestamp.h	/^    static const int kMicroSecondsPerSecond = 1000*1000;$/;"	m	class:cnmua::Timestamp	access:public
+length	.\common\common.h	/^  int length;$/;"	m	struct:Options	access:public
+length	.\common\common.h	/^  int32_t length;$/;"	m	struct:PayloadMessage	access:public
+length	.\common\common.h	/^  int32_t length;$/;"	m	struct:SessionMessage	access:public
+max	.\unp_header\unp.h	37;"	d
+microSecondsSinceEpoch	.\common\Timestamp.h	/^    int64_t microSecondsSinceEpoch(){return microSecondsSinceEpoch_;};$/;"	f	class:cnmua::Timestamp	access:public	signature:()
+microSecondsSinceEpoch_	.\common\Timestamp.h	/^    int64_t microSecondsSinceEpoch_;$/;"	m	class:cnmua::Timestamp	access:private
+min	.\unp_header\unp.h	36;"	d
+my_read	.\unp_header\unp_base.c	/^static ssize_t my_read(int fd, char *ptr)    $/;"	f	file:	signature:(int fd, char *ptr)
+nodelay	.\common\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+now	.\common\Timestamp.cc	/^Timestamp Timestamp::now()$/;"	f	class:Timestamp	signature:()
+now	.\common\Timestamp.h	/^    static Timestamp now();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+number	.\common\common.h	/^  int number;$/;"	m	struct:Options	access:public
+number	.\common\common.h	/^  int32_t number;$/;"	m	struct:SessionMessage	access:public
+parseCommandLine	.\common\common.cc	/^bool parseCommandLine(int argc, char* argv[], Options* opt)$/;"	f	signature:(int argc, char* argv[], Options* opt)
+parseCommandLine	.\common\common.h	/^bool parseCommandLine(int argc, char* argv[], Options* opt);$/;"	p	signature:(int argc, char* argv[], Options* opt)
+port	.\common\common.h	/^  uint16_t port;$/;"	m	struct:Options	access:public
+read_buf	.\unp_header\unp_base.c	/^static char read_buf[MAXLINE];    $/;"	v	file:
+read_cnt	.\unp_header\unp_base.c	/^static int  read_cnt;    $/;"	v	file:
+read_n	.\common\ttcp_blocking.cc	/^static int read_n(int sockfd, void* buf, int length)$/;"	f	file:	signature:(int sockfd, void* buf, int length)
+read_ptr	.\unp_header\unp_base.c	/^static char *read_ptr;    $/;"	v	file:
+readline	.\unp_header\unp.h	/^ssize_t readline(int fd, void *vptr, size_t maxlen);    $/;"	p	signature:(int fd, void *vptr, size_t maxlen)
+readline	.\unp_header\unp_base.c	/^ssize_t readline(int fd, void *vptr, size_t maxlen)    $/;"	f	signature:(int fd, void *vptr, size_t maxlen)
+readn	.\unp_header\unp.h	/^ssize_t readn(int fd, void *vptr, size_t n);    $/;"	p	signature:(int fd, void *vptr, size_t n)
+readn	.\unp_header\unp_base.c	/^ssize_t readn(int fd, void *vptr, size_t n)    $/;"	f	signature:(int fd, void *vptr, size_t n)
+receive	.\common\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+receive	.\common\common.h	/^void receive(const Options& opt);$/;"	p	signature:(const Options& opt)
+receive	.\common\ttcp_blocking.cc	/^void receive(const Options& opt) \/*server*\/$/;"	f	signature:(const Options& opt)
+resolveOrDie	.\common\common.cc	/^struct sockaddr_in resolveOrDie(const char* host, uint16_t port)$/;"	f	signature:(const char* host, uint16_t port)
+resolveOrDie	.\common\common.h	/^struct sockaddr_in resolveOrDie(const char* host, uint16_t port);$/;"	p	signature:(const char* host, uint16_t port)
+timeDifference	.\common\Timestamp.h	/^inline double timeDifference(Timestamp high, Timestamp low)$/;"	f	namespace:cnmua	signature:(Timestamp high, Timestamp low)
+transmit	.\common\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+transmit	.\common\common.h	/^void transmit(const Options& opt);$/;"	p	signature:(const Options& opt)
+transmit	.\common\ttcp_blocking.cc	/^void transmit(const Options& opt)\/*client*\/$/;"	f	signature:(const Options& opt)
+write_n	.\common\ttcp_blocking.cc	/^static int write_n(int sockfd, void* buf, int length)$/;"	f	file:	signature:(int sockfd, void* buf, int length)
+writen	.\unp_header\unp.h	/^ssize_t writen(int fd, const void *vptr, size_t n);    $/;"	p	signature:(int fd, const void *vptr, size_t n)
+writen	.\unp_header\unp_base.c	/^ssize_t writen(int fd, const void *vptr, size_t n)    $/;"	f	signature:(int fd, const void *vptr, size_t n)

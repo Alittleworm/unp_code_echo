@@ -1,0 +1,524 @@
+cscope 16 $HOME\Desktop\header\common               0000002602
+	@C:\Users\DzhenDi\Desktop\header\common\Timestamp.h
+
+1 #iâdeà
+__BASE_TIMESTAMP_H__
+
+
+2 
+	#__BASE_TIMESTAMP_H__
+
+
+	)
+
+4 
+	~<io¡»am
+>
+
+5 
+	~"commÚ.h
+"
+
+7 
+Çme¥aû
+ 
+	gúmua
+
+
+10 þas 
+	cTime¡amp
+
+
+12 
+	gpublic
+:
+
+13 
+Time¡amp
+();
+
+14 
+ex¶ic™
+ 
+Time¡amp
+(
+št64_t
+ 
+miüoSecÚdSšûEpoch
+);
+
+16 
+Time¡amp
+ 
+now
+();
+
+17 cÚ¡ 
+	gkMiüoSecÚdsP”SecÚd
+ = 1000*1000;
+
+18 
+št64_t
+ 
+miüoSecÚdsSšûEpoch
+(){ 
+	gmiüoSecÚdsSšûEpoch_
+;};
+
+19 
+	g´iv©e
+:
+
+20 
+št64_t
+ 
+miüoSecÚdsSšûEpoch_
+;
+
+23 
+šlše
+ 
+	$timeDifã»nû
+(
+Time¡amp
+ 
+high
+, Time¡am°
+low
+)
+
+25 
+št64_t
+ 
+diff
+ = 
+high
+.
+	`miüoSecÚdsSšûEpoch
+(è- 
+low
+.microSecondsSinceEpoch();
+
+26  
+¡©ic_ÿ¡
+<>(
+diff
+è/ 
+Time¡amp
+::
+kMiüoSecÚdsP”SecÚd
+;
+
+27 
+	}
+}
+
+	@C:\Users\DzhenDi\Desktop\header\common\common.h
+
+1 #iâdeà
+_COMM_H__
+
+
+2 
+	#_COMM_H__
+
+
+	)
+
+4 
+	~<¡ršg
+>
+
+5 
+	~<¡ršg.h
+>
+
+6 
+	~<¡dšt.h
+>
+
+7 
+	~<¡dio.h
+>
+
+8 
+	~<¡dlib.h
+>
+
+9 
+	~<uni¡d.h
+>
+
+10 sigÃd 
+	tšt8_t
+;
+
+11 
+	tšt16_t
+;
+
+12 
+	tšt32_t
+;
+
+14 #ià
+__WORDSIZE
+ == 64
+
+15 
+	tšt64_t
+;
+
+17 
+__ex‹nsiÚ__
+
+
+18 
+	tšt64_t
+;
+
+22 
+	sO±iÚs
+
+
+24 
+ušt16_t
+ 
+	mpÜt
+;
+
+25 
+	mËngth
+;
+
+26 
+	mnumb”
+;
+
+27 
+boÞ
+ 
+	mŒªsm™
+, 
+	m»ûive
+, 
+	mnod–ay
+;
+
+28 
+	m¡d
+::
+¡ršg
+ 
+ho¡
+;
+
+29 
+O±iÚs
+()
+
+30 : 
+pÜt
+(0), 
+Ëngth
+(0), 
+numb”
+(0),
+
+31 
+Œªsm™
+(
+çl£
+), 
+»ûive
+(çl£), 
+nod–ay
+(false)
+
+36 
+boÞ
+ 
+·r£CommªdLše
+(
+¬gc
+, * 
+¬gv
+[], 
+O±iÚs
+* 
+Ýt
+);
+
+37 
+sockaddr_š
+ 
+»sÞveOrD›
+(cÚ¡ * 
+ho¡
+, 
+ušt16_t
+ 
+pÜt
+);
+
+39 
+	sSessiÚMes§ge
+
+
+41 
+št32_t
+ 
+	mnumb”
+;
+
+42 
+št32_t
+ 
+	mËngth
+;
+
+43 } 
+__©Œibu‹__
+ ((
+__·cked__
+));
+
+45 
+	sPaylßdMes§ge
+
+
+47 
+št32_t
+ 
+	mËngth
+;
+
+48 
+	md©a
+[0];
+
+51 
+Œªsm™
+(cÚ¡ 
+O±iÚs
+& 
+Ýt
+);
+
+53 
+»ûive
+(cÚ¡ 
+O±iÚs
+& 
+Ýt
+);
+
+	@common.h
+
+1 #iâdeà
+_COMM_H__
+
+
+2 
+	#_COMM_H__
+
+
+	)
+
+4 
+	~<¡ršg
+>
+
+5 
+	~<¡ršg.h
+>
+
+6 
+	~<¡dšt.h
+>
+
+7 
+	~<¡dio.h
+>
+
+8 
+	~<¡dlib.h
+>
+
+9 
+	~<uni¡d.h
+>
+
+10 sigÃd 
+	tšt8_t
+;
+
+11 
+	tšt16_t
+;
+
+12 
+	tšt32_t
+;
+
+14 #ià
+__WORDSIZE
+ == 64
+
+15 
+	tšt64_t
+;
+
+17 
+__ex‹nsiÚ__
+
+
+18 
+	tšt64_t
+;
+
+22 
+	sO±iÚs
+
+
+24 
+ušt16_t
+ 
+	mpÜt
+;
+
+25 
+	mËngth
+;
+
+26 
+	mnumb”
+;
+
+27 
+boÞ
+ 
+	mŒªsm™
+, 
+	m»ûive
+, 
+	mnod–ay
+;
+
+28 
+	m¡d
+::
+¡ršg
+ 
+ho¡
+;
+
+29 
+O±iÚs
+()
+
+30 : 
+pÜt
+(0), 
+Ëngth
+(0), 
+numb”
+(0),
+
+31 
+Œªsm™
+(
+çl£
+), 
+»ûive
+(çl£), 
+nod–ay
+(false)
+
+36 
+boÞ
+ 
+·r£CommªdLše
+(
+¬gc
+, * 
+¬gv
+[], 
+O±iÚs
+* 
+Ýt
+);
+
+37 
+sockaddr_š
+ 
+»sÞveOrD›
+(cÚ¡ * 
+ho¡
+, 
+ušt16_t
+ 
+pÜt
+);
+
+39 
+	sSessiÚMes§ge
+
+
+41 
+št32_t
+ 
+	mnumb”
+;
+
+42 
+št32_t
+ 
+	mËngth
+;
+
+43 } 
+__©Œibu‹__
+ ((
+__·cked__
+));
+
+45 
+	sPaylßdMes§ge
+
+
+47 
+št32_t
+ 
+	mËngth
+;
+
+48 
+	md©a
+[0];
+
+51 
+Œªsm™
+(cÚ¡ 
+O±iÚs
+& 
+Ýt
+);
+
+53 
+»ûive
+(cÚ¡ 
+O±iÚs
+& 
+Ýt
+);
+
+	@
+1
+.
+0
+3
+108
+C:\Users\DzhenDi\Desktop\header\common\Timestamp.h
+C:\Users\DzhenDi\Desktop\header\common\common.h
+common.h

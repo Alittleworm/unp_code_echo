@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Options	.\common.h	/^  Options()$/;"	f	struct:Options	access:public	signature:()
+Options	.\common.h	/^struct Options$/;"	s
+Options::Options	.\common.h	/^  Options()$/;"	f	struct:Options	access:public	signature:()
+Options::host	.\common.h	/^  std::string host;$/;"	m	struct:Options	access:public
+Options::length	.\common.h	/^  int length;$/;"	m	struct:Options	access:public
+Options::nodelay	.\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+Options::number	.\common.h	/^  int number;$/;"	m	struct:Options	access:public
+Options::port	.\common.h	/^  uint16_t port;$/;"	m	struct:Options	access:public
+Options::receive	.\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+Options::transmit	.\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+PayloadMessage	.\common.h	/^struct PayloadMessage$/;"	s
+PayloadMessage::data	.\common.h	/^  char data[0];$/;"	m	struct:PayloadMessage	access:public
+PayloadMessage::length	.\common.h	/^  int32_t length;$/;"	m	struct:PayloadMessage	access:public
+SessionMessage	.\common.h	/^struct SessionMessage$/;"	s
+SessionMessage::length	.\common.h	/^  int32_t length;$/;"	m	struct:SessionMessage	access:public
+SessionMessage::number	.\common.h	/^  int32_t number;$/;"	m	struct:SessionMessage	access:public
+Timestamp	.\Timestamp.cc	/^Timestamp::Timestamp(): microSecondsSinceEpoch_(0)$/;"	f	class:Timestamp	signature:()
+Timestamp	.\Timestamp.cc	/^Timestamp::Timestamp(int64_t microSecondSinceEpoch): microSecondsSinceEpoch_(microSecondSinceEpoch)$/;"	f	class:Timestamp	signature:(int64_t microSecondSinceEpoch)
+Timestamp	.\Timestamp.h	/^    Timestamp();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+Timestamp	.\Timestamp.h	/^    explicit Timestamp(int64_t microSecondSinceEpoch);$/;"	p	class:cnmua::Timestamp	access:public	signature:(int64_t microSecondSinceEpoch)
+Timestamp	.\Timestamp.h	/^class Timestamp$/;"	c	namespace:cnmua
+Timestamp::Timestamp	.\Timestamp.cc	/^Timestamp::Timestamp(): microSecondsSinceEpoch_(0)$/;"	f	class:Timestamp	signature:()
+Timestamp::Timestamp	.\Timestamp.cc	/^Timestamp::Timestamp(int64_t microSecondSinceEpoch): microSecondsSinceEpoch_(microSecondSinceEpoch)$/;"	f	class:Timestamp	signature:(int64_t microSecondSinceEpoch)
+Timestamp::now	.\Timestamp.cc	/^Timestamp Timestamp::now()$/;"	f	class:Timestamp	signature:()
+_COMM_H__	.\common.h	2;"	d
+__BASE_TIMESTAMP_H__	.\Timestamp.h	2;"	d
+__STDC_FORMAT_MACROS	.\Timestamp.cc	5;"	d	file:
+__STDC_FORMAT_MACROS	.\Timestamp.cc	7;"	d	file:
+acceptOrDie	.\ttcp_blocking.cc	/^static int acceptOrDie(uint16_t port)$/;"	f	file:	signature:(uint16_t port)
+cnmua	.\Timestamp.h	/^namespace cnmua$/;"	n
+cnmua::Timestamp	.\Timestamp.h	/^class Timestamp$/;"	c	namespace:cnmua
+cnmua::Timestamp::Timestamp	.\Timestamp.h	/^    Timestamp();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+cnmua::Timestamp::Timestamp	.\Timestamp.h	/^    explicit Timestamp(int64_t microSecondSinceEpoch);$/;"	p	class:cnmua::Timestamp	access:public	signature:(int64_t microSecondSinceEpoch)
+cnmua::Timestamp::kMicroSecondsPerSecond	.\Timestamp.h	/^    static const int kMicroSecondsPerSecond = 1000*1000;$/;"	m	class:cnmua::Timestamp	access:public
+cnmua::Timestamp::microSecondsSinceEpoch	.\Timestamp.h	/^    int64_t microSecondsSinceEpoch(){return microSecondsSinceEpoch_;};$/;"	f	class:cnmua::Timestamp	access:public	signature:()
+cnmua::Timestamp::microSecondsSinceEpoch_	.\Timestamp.h	/^    int64_t microSecondsSinceEpoch_;$/;"	m	class:cnmua::Timestamp	access:private
+cnmua::Timestamp::now	.\Timestamp.h	/^    static Timestamp now();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+cnmua::timeDifference	.\Timestamp.h	/^inline double timeDifference(Timestamp high, Timestamp low)$/;"	f	namespace:cnmua	signature:(Timestamp high, Timestamp low)
+data	.\common.h	/^  char data[0];$/;"	m	struct:PayloadMessage	access:public
+host	.\common.h	/^  std::string host;$/;"	m	struct:Options	access:public
+int16_t	.\common.h	/^typedef short  int int16_t;$/;"	t
+int32_t	.\common.h	/^typedef int    int32_t;$/;"	t
+int64_t	.\common.h	/^typedef long int int64_t;$/;"	t
+int64_t	.\common.h	/^typedef long long int int64_t;$/;"	t
+int8_t	.\common.h	/^typedef signed char int8_t;$/;"	t
+kMicroSecondsPerSecond	.\Timestamp.h	/^    static const int kMicroSecondsPerSecond = 1000*1000;$/;"	m	class:cnmua::Timestamp	access:public
+length	.\common.h	/^  int length;$/;"	m	struct:Options	access:public
+length	.\common.h	/^  int32_t length;$/;"	m	struct:PayloadMessage	access:public
+length	.\common.h	/^  int32_t length;$/;"	m	struct:SessionMessage	access:public
+microSecondsSinceEpoch	.\Timestamp.h	/^    int64_t microSecondsSinceEpoch(){return microSecondsSinceEpoch_;};$/;"	f	class:cnmua::Timestamp	access:public	signature:()
+microSecondsSinceEpoch_	.\Timestamp.h	/^    int64_t microSecondsSinceEpoch_;$/;"	m	class:cnmua::Timestamp	access:private
+nodelay	.\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+now	.\Timestamp.cc	/^Timestamp Timestamp::now()$/;"	f	class:Timestamp	signature:()
+now	.\Timestamp.h	/^    static Timestamp now();$/;"	p	class:cnmua::Timestamp	access:public	signature:()
+number	.\common.h	/^  int number;$/;"	m	struct:Options	access:public
+number	.\common.h	/^  int32_t number;$/;"	m	struct:SessionMessage	access:public
+parseCommandLine	.\common.cc	/^bool parseCommandLine(int argc, char* argv[], Options* opt)$/;"	f	signature:(int argc, char* argv[], Options* opt)
+parseCommandLine	.\common.h	/^bool parseCommandLine(int argc, char* argv[], Options* opt);$/;"	p	signature:(int argc, char* argv[], Options* opt)
+port	.\common.h	/^  uint16_t port;$/;"	m	struct:Options	access:public
+read_n	.\ttcp_blocking.cc	/^static int read_n(int sockfd, void* buf, int length)$/;"	f	file:	signature:(int sockfd, void* buf, int length)
+receive	.\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+receive	.\common.h	/^void receive(const Options& opt);$/;"	p	signature:(const Options& opt)
+receive	.\ttcp_blocking.cc	/^void receive(const Options& opt) \/*server*\/$/;"	f	signature:(const Options& opt)
+resolveOrDie	.\common.cc	/^struct sockaddr_in resolveOrDie(const char* host, uint16_t port)$/;"	f	signature:(const char* host, uint16_t port)
+resolveOrDie	.\common.h	/^struct sockaddr_in resolveOrDie(const char* host, uint16_t port);$/;"	p	signature:(const char* host, uint16_t port)
+timeDifference	.\Timestamp.h	/^inline double timeDifference(Timestamp high, Timestamp low)$/;"	f	namespace:cnmua	signature:(Timestamp high, Timestamp low)
+transmit	.\common.h	/^  bool transmit, receive, nodelay;$/;"	m	struct:Options	access:public
+transmit	.\common.h	/^void transmit(const Options& opt);$/;"	p	signature:(const Options& opt)
+transmit	.\ttcp_blocking.cc	/^void transmit(const Options& opt)\/*client*\/$/;"	f	signature:(const Options& opt)
+write_n	.\ttcp_blocking.cc	/^static int write_n(int sockfd, void* buf, int length)$/;"	f	file:	signature:(int sockfd, void* buf, int length)
